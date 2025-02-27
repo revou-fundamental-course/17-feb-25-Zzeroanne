@@ -1,0 +1,251 @@
+/* Ini CSS external*/
+body {
+    display: block;
+    margin: auto;
+    padding: 9px;
+    width: 80%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    color:aqua;
+    background-color: rgb(228, 43, 157);
+}
+hr {
+    border: 1px dashed aqua;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+a:link {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: underline dotted;
+}
+
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.home-header {
+    display:block;
+    padding: 9px;
+    color: rgba(0, 0, 0, 0.774);
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExamtwdG51bmlmYWdyMDB3ZDN2Ymk0Mms1b3JycHNvaXZvczRhaTEweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9k4xC1ijCwGiC5y/giphy.gif);
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    display: flex;
+}
+nav > a {
+    border: 1px solid;
+    color: aqua;
+    text-decoration: underline dotted 1px;
+    padding: 8px;
+    border-radius: 4px;
+}
+.no-border-radius {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.no-border-radius-right {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 4px;
+    border-right: 0;
+}
+.no-border-radius-left {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-left: 0;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main > header {
+    text-align: center;
+}
+.main-content {
+    display: flex;
+    gap: 24px;
+}
+.main-container-left {
+    border: 1px solid;
+    height: 400px;
+    width: 60%;
+    align-content: center;
+    text-align: center;
+    padding: 36px;
+}
+.main-container-right {
+    display: flex;
+    border: 1px solid;
+    height: 400px;
+    width: 40%;
+    align-content: center;
+    text-align: center;
+    padding: 36px;
+}
+.main-container-inside {
+    flex: 1;
+    border: 1px solid;
+    align-content: center;
+    text-align: center;
+    padding: 36px;
+    background-color: aqua;
+    color: rgb(228, 43, 157);
+}
+.main-banner {
+    background-size: cover;
+    background-position: center;
+    border-radius: 3%;
+    height: 299px; /*ubah nanti*/
+}
+.banner-img-1{
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/67150c84011a0840692f8af1/safest-country-to-travel-Iceland/0x0.jpg?format=jpg&width=1440);
+}
+.banner-img-2{
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/67150cfe142de47629586323/canada-safest-countries-list/0x0.jpg?format=jpg&width=1440);
+}
+.banner-img-3{
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/67150e9b3a2d1f069e38911c/Australia-safest-countries-to-travel/0x0.jpg?format=jpg&width=1440);
+}
+.banner-img-4 {
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/67150c1d1e25e8ffd7b859d3/Norway-safest-countries-to-travel/0x0.jpg?format=jpg&width=1440);
+}
+.banner-img-5 {
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/67150f6205df7f4b4e43bd35/Dubai-UAE-safest-countries/1960x0.jpg?format=jpg&width=1440);
+}
+#our-package-section > header {
+    height: 100px;
+    align-content: center;
+    text-align: center;
+}
+.our-package-content {
+    border: 1px solid;
+    height: 300px;
+    align-content: center;
+    text-align: left;
+    padding: 36px;
+}
+#call-us-section > header {
+    height: 100px;
+    align-content: center;
+    text-align: center;
+}
+.call-us-content {
+    border: 1px solid;
+    height: 300px;
+    align-content: center;
+    text-align: left;
+    padding: 36px;
+}
+input {
+    background-color: rgb(228, 43, 157);
+    color: aqua;
+}
+.form-group {
+    text-align: left;
+    margin-bottom: 9px;
+}
+.form-group > label {
+    display: block;
+}
+select {
+    background-color: rgb(228, 43, 157);
+    border: 2px solid gray;
+    padding-right: 9px;
+    padding-left: 3px;
+    color: aqua;
+}
+button {
+    background-color: aqua;
+    color: rgba(0, 0, 0, 0.774);
+    font-family: 'Courier New', Courier, monospace;
+}
+.company-logo {
+    border: 1px solid;
+    height: 45px;
+    width: 45px;
+    background-image: url(https://64.media.tumblr.com/a3f76b4f3ac0632ee6da4f9b36caa1f4/fd918c7bea7b4c78-15/s1280x1920/990efc7c8e5eead6474e2066f9d4e9ff02d89be7.gifv);
+    background-size:cover;
+    border-radius: 10%;
+}
+footer {
+    color: rgba(0, 0, 0, 0.774);
+    text-align: center;
+    padding: 3px;
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnA3c2xzaHdvOWJ2czFucjJsODd0MTBuOThncm92emtxNmtpNTR0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9k4xC1ijCwGiC5y/giphy.gif);
+    background-position: bottom;
+}
+
+/*responsive design*/
+/*untuk tampilan di layar berukuran < 480px*/
+@media only screen and (max-width: 480px) {
+    body {
+        width: 100%;
+        font-size: medium;
+    }
+
+    p {
+        font-size: 95%;
+   }
+
+    nav {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-container-left, .main-container-right {
+        width: 100%;
+        height: auto;
+    }
+    
+    .main-banner {
+        height: 200px;
+    }
+}
+
+/* max-width: 768px */
+@media only screen and (max-width: 768px) {
+    body {
+        width: 90%;
+    }
+
+    p {
+        font-size: 95%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-container-left, .main-container-right {
+        width: 100%;
+        height: auto;
+    }
+}
